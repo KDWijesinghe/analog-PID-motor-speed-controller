@@ -1,7 +1,7 @@
 # Analog PID Motor Speed Controller
 
 <p align="center">
-  <img src="img/ BB1.png" width="70%" />
+  <img src="img/BB4.png" width="70%" />
 </p>
 <p align="center">
   <img src="img/BB10.jpeg" width="70%" />
