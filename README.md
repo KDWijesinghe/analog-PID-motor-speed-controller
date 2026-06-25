@@ -1,38 +1,22 @@
 # Analog PID Motor Speed Controller
 
-An analog closed-loop DC motor speed controller designed using operational amplifiers, PWM generation, and encoder-based feedback. The system maintains a desired motor speed under varying load conditions by continuously adjusting the motor drive signal using a PID control algorithm implemented entirely in analog hardware.
-
-## Overview
-
-This project was developed as part of the EN2111 – Electronic Circuit Design module at the Department of Electronic and Telecommunication Engineering, University of Moratuwa.
-
-The controller measures motor speed using a magnetic encoder, converts the encoder frequency into a proportional voltage, and compares it with a user-defined reference speed. The resulting error signal is processed by proportional, integral, and derivative control stages to generate a PWM signal that drives the motor.
-
-## Breadboard Implementation
+An analog closed-loop DC motor speed controller developed using operational amplifiers, encoder-based feedback, and PWM control. The system continuously regulates motor speed by comparing the desired reference speed with the measured speed and applying PID compensation entirely in analog hardware. The controller maintains stable operation and effectively rejects mechanical disturbances, demonstrating the fundamental principles of feedback control systems.
 
 <p align="center">
-  <img src="img/BB4.png" width="70%" />
-  <br>
-  <em>Initial breadboard implementation of the analog PID motor speed controller.</em>
+  <img src="img/BB4.png" width="48%" />
+  <img src="img/BB10.jpeg" width="48%" />
 </p>
 
-<p align="center">
-  <img src="img/BB10.jpeg" width="70%" />
-  <br>
-  <em>Final breadboard prototype with integrated feedback, PID, PWM, and motor driver stages.</em>
-</p>
+## Key Features
 
-## Features
-
-- Analog PID controller implementation
-- Closed-loop speed control
+- Fully analog PID controller implementation
+- Closed-loop DC motor speed regulation
 - Encoder-based speed feedback
 - Frequency-to-Voltage (F-V) conversion
-- PWM motor control
+- PWM-based motor drive control
 - Mechanical disturbance rejection
-- Adjustable speed reference
-- Real-time error correction
-- Breadboard implementation and testing
+- Adjustable reference speed
+- Real-time feedback and error correction
 
 ## System Architecture
 
@@ -42,7 +26,6 @@ Reference Speed
  Error Generator
        ↓
  PID Controller
-   (P + I + D)
        ↓
  PWM Generator
        ↓
@@ -53,3 +36,44 @@ Reference Speed
 Encoder Feedback
        ↑
 Frequency-to-Voltage Converter
+```
+
+## Hardware Components
+
+- N20 DC Motor with Magnetic Encoder
+- TL071 Operational Amplifiers
+- LM741 Operational Amplifiers
+- L293D Motor Driver
+- IN914 Diodes
+- Resistors and Capacitors
+- Potentiometers for PID tuning
+- Dual ±12 V Power Supply
+- 6 V Motor Supply
+
+## Performance Evaluation
+
+The controller was evaluated under reference speed changes and external mechanical load disturbances. Experimental results demonstrate stable closed-loop operation, reduced steady-state error, and rapid recovery following disturbances.
+
+<p align="center">
+  <img src="img/LoadDist1.jpg" width="75%" />
+</p>
+
+## Demonstrations
+
+- Step Response Analysis
+- Mechanical Disturbance Rejection
+- Closed-Loop Speed Regulation
+
+## Team
+
+<p align="center">
+  <img src="img/team.jpeg" width="75%" />
+</p>
+
+**Group 13**  
+Department of Electronic and Telecommunication Engineering  
+University of Moratuwa, Sri Lanka
+
+## License
+
+This project is intended for educational and academic purposes.
