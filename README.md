@@ -1,5 +1,9 @@
 # Analog PID Motor Speed Controller
 
+<p align="center">
+  <img src="Images/ENTC_LAN.png" width="70%" />
+</p>
+
 An analog closed-loop DC motor speed controller designed using operational amplifiers, PWM generation, and encoder-based feedback. The system maintains a desired motor speed under varying load conditions by continuously adjusting the motor drive signal using a PID control algorithm implemented entirely in analog hardware.
 
 ## Overview
