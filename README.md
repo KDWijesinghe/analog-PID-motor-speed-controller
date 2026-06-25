@@ -55,7 +55,7 @@ Frequency-to-Voltage Converter
 The controller was evaluated under reference speed changes and external mechanical load disturbances. Experimental results demonstrate stable closed-loop operation, reduced steady-state error, and rapid recovery following disturbances.
 
 <p align="center">
-  <img src="img/LoadDist1.jpg" width="50%" />
+  <img src="img/LoadDist1.jpg" width="40%" />
 </p>
 
 ## Demonstrations
@@ -67,7 +67,7 @@ The controller was evaluated under reference speed changes and external mechanic
 ## Team
 
 <p align="center">
-  <img src="img/team.jpeg" width="50%" />
+  <img src="img/team.jpeg" width="40%" />
 </p>
 
 **Group 13**  
