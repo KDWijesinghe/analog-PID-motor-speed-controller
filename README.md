@@ -3,8 +3,8 @@
 An analog closed-loop DC motor speed controller developed using operational amplifiers, encoder-based feedback, and PWM control. The system continuously regulates motor speed by comparing the desired reference speed with the measured speed and applying PID compensation entirely in analog hardware. The controller maintains stable operation and effectively rejects mechanical disturbances, demonstrating the fundamental principles of feedback control systems.
 
 <p align="center">
-  <img src="img/BB4.png" width="48%" />
-  <img src="img/BB10.jpeg" width="48%" />
+  <img src="img/BB4.png" width="45%" />
+  <img src="img/BB10.jpeg" width="45%" />
 </p>
 
 ## Key Features
@@ -55,7 +55,7 @@ Frequency-to-Voltage Converter
 The controller was evaluated under reference speed changes and external mechanical load disturbances. Experimental results demonstrate stable closed-loop operation, reduced steady-state error, and rapid recovery following disturbances.
 
 <p align="center">
-  <img src="img/LoadDist1.jpg" width="75%" />
+  <img src="img/LoadDist1.jpg" width="50%" />
 </p>
 
 ## Demonstrations
@@ -67,7 +67,7 @@ The controller was evaluated under reference speed changes and external mechanic
 ## Team
 
 <p align="center">
-  <img src="img/team.jpeg" width="75%" />
+  <img src="img/team.jpeg" width="50%" />
 </p>
 
 **Group 13**  
