@@ -7,10 +7,10 @@
   <img src="img/BB10.jpeg" width="70%" />
 </p>
 <p align="center">
-  <img src="LoadDist1.jpg" width="70%" />
+  <img src="img/LoadDist1.jpg" width="70%" />
 </p>
 <p align="center">
-  <img src="team.jpeg" width="70%" />
+  <img src="img/team.jpeg" width="70%" />
 </p>
 
 An analog closed-loop DC motor speed controller designed using operational amplifiers, PWM generation, and encoder-based feedback. The system maintains a desired motor speed under varying load conditions by continuously adjusting the motor drive signal using a PID control algorithm implemented entirely in analog hardware.
